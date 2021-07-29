@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f8f8;
+    color: #262f3c;
+   // background-color: #000;
+	max-width: 100%;
+}
+
+h3{
+	font-size: 39px;
+}
+
+h4{
+	font-size: 22px;
+}
+
+section{
+	position: relative;
+}
+
+.font-weight-extra-black{
+	font-family: 'Mulish', sans-serif;
+	font-weight: 800;
+}
+
+.font-weight-thin{
+	font-family: 'Mulish', sans-serif;
+	font-weight: 100;
+}
+
+.font-default{
+	font-family: 'Mulish', sans-serif;
+	font-weight: 300;
+}
+
+
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.container{
+    max-width: 1400px;
+}
+
+.button{
+	color: #49c7e0;
+    padding: 11px 25px;
+  /*  background-color: yellow;*/
+    border: 2px solid;
+    border-radius: 35px;
+    border-color: #49c7e0;
+
+}
+
+
+.button-white{
+	color: #fff;
+    padding: 11px 25px;
+  /*  background-color: yellow;*/
+    border: 2px solid;
+    border-radius: 35px;
+    border-color: #fff;
+
+}
+
+.nav-wrap {
+	width: 100%;
+	height: 75px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+
+	.navBar{
+
+			.navBar-main{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+			}
+
+			.navBar-brand{
+				width: 110px;
+				display: flex;
+				align-items: center;
+			}
+
+			ul{
+				list-style-type: none;
+	  			margin: 0;
+	  			padding: 15px 30px 20px 85px;
+	  			display: flex;
+	  			flex-grow: 1;
+	  			align-items: center;
+
+			}
+			li{
+				display: inline;
+				padding-right: 60px;
+			}
+
+			a{ 
+				color: #262f3c;
+			/*	text-decoration-line: none;*/
+			 }
+
+			 .active{
+			 	color: #16b6d2;
+			 }
+		}
+	}
+
+
+.banner{
+
+	.button-white{
+		font-size: 1.5rem;
+	}
+
+	.box-bg{
+		position: absolute;
+		left: -10%;
+		top: -22%;
+		width: 60%;
+		height: 800px;
+		background-color: #16b6d2;
+		z-index: -2;
+		transform: rotate(-12.5deg);
+		border-radius: 100px;
+
+	}
+}	
+
+
+
+
+.m-b{
+	margin-bottom: 5rem;
+}
+
+
+.box-tittle{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	//justify-content: center;
+}
+
+.box-tittle-inner{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 450px;
+
+	h2{
+		font-size: 53px;
+		line-height: 1.16981;
+		color: #fff;
+	}
+
+	h4{
+		font-size: 22px;
+    	line-height: 1.36364;
+    	color: #fff;
+	}
+}
+
+.deviceGroup{
+	display: flex;
+	width: 100%;
+	align-items: flex-end;
+	padding: 40px 0;
+}
+
+.mac-fr1{
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	max-width: 100%;
+}
+
+
+.mackbook-fr1-inner{
+	position: absolute;
+    top: 41px;
+    left: 149px;
+    z-index: 0;
+    border-radius: 5px;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+ //   background-image: url("../media/iphone-fr1-inner.jpg");
+}
+
+.iphone-fr1{
+	position: relative;
+	z-index: 1;
+	max-width: 20.5%;
+	margin-bottom: -1.8%;
+	margin-left: -70%;
+}
+
+.iphone-fr1-inner{
+	position: absolute;
+    top: 12px;
+    left: 14px;
+    z-index: 0;
+    border-radius: 10px;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+ //   background-image: url("../media/iphone-fr1-inner.jpg");
+}
+
+.imgiPhone-fr1{
+	z-index: 1;
+
+}
+
+
+.wrap-features{
+	display: flex;
+}
+
+.ps-card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: 9px;
+    background: #ffffff;
+    box-shadow: 0 0 20px 0 rgb(75 81 91 / 20%);	
+    padding-bottom: 1.5rem;
+
+}
+
+
+
+.iconSize{
+	font-size: 50px;
+	color: #ffffff;
+}
+
+
+.icon-circle{
+	border-radius: 50%;
+	width: 6em;
+	height: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.bg-color-grey{
+background-color: #869098;
+}
+
+.bg-color-yellow{
+background-color: #f3dc8a;
+}
+
+.bg-color-skyBlue{
+background-color: #92cee2;
+}
+
+.bg-color-pink{
+background-color: #fe8d95;
+}
+
+.color-white{
+	color: #ffffff;
+}
+
+
+.iphoneGroup{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	padding: 5rem 0;
+}
+
+.imgiPhone-fr2{
+	z-index: 999;
+}
+
+
+.reel-mobile{
+	margin-top: 12px;
+	margin-left: 16px;
+	z-index: -1;
+	position: absolute;
+}
+
+.box-tittle-iphoneReel{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+	h3, p{
+		padding-left: 50px;
+	}
+
+
+
+}
+
+
+.bg{
+	position: absolute;
+	top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -1;
+}
+
+.bg-left{
+	background-color: #eff0f1;
+	top: 0;
+    bottom: 0px;
+}
+
+.bg-right{
+	background-color: #92cee2;
+	top: 0;
+    bottom: 0px;
+}
+
+
+$fullWidth: 100%;
+
+.rw{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column{
+	flex-basis: 0;
+	flex-grow: 1;
+	max-width: $fullWidth;
+	padding-right: 15px;
+    padding-left: 15px;
+}
+
+@for $i from 1 through 12{
+	.column-#{$i}{
+		max-width: ($fullWidth/12)*$i;
+		flex: ($fullWidth/12)*$i;
+		padding-right: 15px;
+  		padding-left: 15px;
+	}
+}
