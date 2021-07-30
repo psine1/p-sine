@@ -9,6 +9,7 @@ body{
     color: #262f3c;
    // background-color: #000;
 	max-width: 100%;
+	overflow-x: hidden;
 }
 
 h3{
@@ -45,6 +46,10 @@ section{
 
 .text-left{
 	text-align: left;
+}
+
+.text-right{
+	text-align: right;
 }
 
 .container{
@@ -132,7 +137,6 @@ section{
 		top: -22%;
 		width: 60%;
 		height: 800px;
-		background-color: #16b6d2;
 		z-index: -2;
 		transform: rotate(-12.5deg);
 		border-radius: 100px;
@@ -280,6 +284,16 @@ background-color: #92cee2;
 background-color: #fe8d95;
 }
 
+.bg-color-principal{
+background-color: #16b6d2;
+}
+
+.bg-color-secundary{
+background-color: #eff0f1;
+}
+
+
+
 .color-white{
 	color: #ffffff;
 }
@@ -331,17 +345,11 @@ background-color: #fe8d95;
     z-index: -1;
 }
 
-.bg-left{
-	background-color: #eff0f1;
+.bg-left, .bg-right{
 	top: 0;
     bottom: 0px;
 }
 
-.bg-right{
-	background-color: #92cee2;
-	top: 0;
-    bottom: 0px;
-}
 
 
 $fullWidth: 100%;
