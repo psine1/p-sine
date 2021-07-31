@@ -59,11 +59,10 @@ section{
 .button{
 	color: #49c7e0;
     padding: 11px 25px;
-  /*  background-color: yellow;*/
     border: 2px solid;
     border-radius: 35px;
     border-color: #49c7e0;
-
+    text-align: center;
 }
 
 
@@ -74,13 +73,12 @@ section{
     border: 2px solid;
     border-radius: 35px;
     border-color: #fff;
-
+	text-align: center;
 }
 
 .nav-wrap {
 	width: 100%;
 	height: 75px;
-	background-color: #fff;
 	display: flex;
 	align-items: center;
 
@@ -148,7 +146,7 @@ section{
 
 
 .m-b{
-	margin-bottom: 5rem;
+	margin-bottom: 3rem;
 }
 
 
@@ -295,7 +293,9 @@ background-color: #16b6d2;
 background-color: #eff0f1;
 }
 
-
+.bg-color-white{
+background-color: #ffffff;
+}
 
 .color-white{
 	color: #ffffff;
@@ -374,6 +374,12 @@ background-color: #eff0f1;
 }
 
 
+.aligin-Items-center{
+ 	align-items: center;
+  	justify-content: center;
+
+}
+
 .bg{
 	position: absolute;
 	top: 0px;
@@ -390,6 +396,28 @@ background-color: #eff0f1;
     bottom: 0px;
 }
 
+
+a.button{
+	text-decoration: none;
+}
+
+
+footer{
+
+	.navBar-main{
+		a{
+			color: #FFFFFF !important;
+		}
+
+		ul{
+			padding: 15px !important;
+		}
+
+		.navBar-brand{
+		}
+	}
+
+}
 
 
 $fullWidth: 100%;
