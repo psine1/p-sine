@@ -212,6 +212,7 @@ section {
   background: #ffffff;
   box-shadow: 0 0 20px 0 rgba(75, 81, 91, 0.2);
   padding-bottom: 1.5rem;
+  min-height: 100%;
 }
 
 .iconSize {
@@ -260,6 +261,10 @@ section {
   color: #ffffff;
 }
 
+.color-grey {
+  color: #262f3c;
+}
+
 .iphoneGroup {
   display: flex;
   width: 100%;
@@ -279,14 +284,44 @@ section {
   position: absolute;
 }
 
-.box-tittle-iphoneReel {
+.box-tittle-right {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
-.box-tittle-iphoneReel h3, .box-tittle-iphoneReel p {
-  padding-left: 50px;
+.box-tittle-right h3 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 4rem;
+}
+.box-tittle-right p {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 4rem;
+}
+.box-tittle-right ul {
+  padding-left: 4rem;
+  list-style: none;
+  line-height: 3rem;
+  padding-bottom: 4rem;
+}
+
+.box-tittle-left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.box-tittle-left h3 {
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-top: 4rem;
+}
+.box-tittle-left p {
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-bottom: 4rem;
 }
 
 .bg {

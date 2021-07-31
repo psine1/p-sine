@@ -244,6 +244,7 @@ section{
     background: #ffffff;
     box-shadow: 0 0 20px 0 rgb(75 81 91 / 20%);	
     padding-bottom: 1.5rem;
+    min-height: 100%;
 
 }
 
@@ -298,6 +299,10 @@ background-color: #eff0f1;
 	color: #ffffff;
 }
 
+.color-grey{
+	color: #262f3c;
+}
+
 
 .iphoneGroup{
 	display: flex;
@@ -319,15 +324,53 @@ background-color: #eff0f1;
 	position: absolute;
 }
 
-.box-tittle-iphoneReel{
+.box-tittle-right{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 
-	h3, p{
-		padding-left: 50px;
+	h3{
+		padding-left: 4rem;	
+		padding-right: 4rem;				
+		padding-top: 4rem;
 	}
+
+	p{
+		padding-left: 4rem;
+		padding-right: 4rem;		
+		padding-bottom: 4rem;
+	}
+
+	ul{
+		padding-left: 4rem;
+		list-style: none;
+		line-height: 3rem;
+		padding-bottom: 4rem;
+	}
+
+
+
+}
+
+
+.box-tittle-left{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+	h3{
+		padding-right: 4rem;
+		padding-left: 4rem;		
+		padding-top: 4rem;		
+	}
+
+	p{
+		padding-right: 4rem;
+		padding-left: 4rem;		
+		padding-bottom: 4rem;		
+	}	
 
 
 
