@@ -75,23 +75,28 @@ section {
   text-align: center;
 }
 
+.navBar-brand {
+  width: 110px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  margin-left: 1.5rem;
+}
+
 .nav-wrap {
   width: 100%;
   height: 75px;
   display: flex;
   align-items: center;
 }
-.nav-wrap .navBar .navBar-main {
+.nav-wrap .navBar .navBar-main, .nav-wrap .navbar-expand-lg .navBar-main {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.nav-wrap .navBar .navBar-brand {
-  width: 110px;
-  display: flex;
-  align-items: center;
-}
-.nav-wrap .navBar ul {
+.nav-wrap .navBar ul, .nav-wrap .navbar-expand-lg ul {
   list-style-type: none;
   margin: 0;
   padding: 15px 30px 20px 85px;
@@ -99,15 +104,15 @@ section {
   flex-grow: 1;
   align-items: center;
 }
-.nav-wrap .navBar li {
+.nav-wrap .navBar li, .nav-wrap .navbar-expand-lg li {
   display: inline;
   padding-right: 60px;
 }
-.nav-wrap .navBar a {
+.nav-wrap .navBar a, .nav-wrap .navbar-expand-lg a {
   color: #262f3c;
   /*	text-decoration-line: none;*/
 }
-.nav-wrap .navBar .active {
+.nav-wrap .navBar .active, .nav-wrap .navbar-expand-lg .active {
   color: #16b6d2;
 }
 
@@ -133,6 +138,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  padding: 2.5rem;
 }
 
 .box-tittle-inner {
@@ -453,6 +459,34 @@ footer .navBar-main ul {
   flex: 100%;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+li.li-contact {
+  display: none;
+}
+
+@media (max-width: 991.98px) {
+  li.li-contact {
+    display: block;
+  }
+
+  .navBar-button {
+    display: none;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  #deviceGroup, .box-bg {
+    display: none;
+  }
+
+  .box-tittle {
+    max-width: 100%;
+    justify-content: center;
+    background-color: #16b6d2;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
