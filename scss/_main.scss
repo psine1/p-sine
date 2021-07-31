@@ -12,12 +12,23 @@ body{
 	overflow-x: hidden;
 }
 
+h2{
+	padding: 0.8rem;
+}
+
 h3{
 	font-size: 39px;
+	padding: 0.8rem;
 }
 
 h4{
 	font-size: 22px;
+	padding: 0.8rem;
+}
+
+p{
+	padding: 0.8rem;
+
 }
 
 section{
@@ -27,16 +38,19 @@ section{
 .font-weight-extra-black{
 	font-family: 'Mulish', sans-serif;
 	font-weight: 800;
+
 }
 
 .font-weight-thin{
 	font-family: 'Mulish', sans-serif;
 	font-weight: 100;
+	
 }
 
 .font-default{
 	font-family: 'Mulish', sans-serif;
 	font-weight: 300;
+	
 }
 
 
@@ -251,7 +265,7 @@ section{
 	border-radius: 9px;
     background: #ffffff;
     box-shadow: 0 0 20px 0 rgb(75 81 91 / 20%);	
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
     min-height: 100%;
 
 }
@@ -321,7 +335,7 @@ background-color: #ffffff;
 	width: 100%;
 	align-items: center;
 	justify-content: center;
-	padding: 5rem 0;
+	padding: 2rem 0;
 }
 
 .imgiPhone-fr2{
@@ -367,6 +381,7 @@ background-color: #ffffff;
 .vertical-list{
 	display: flex;
 	justify-content: space-between;
+	padding: 2rem;
 }
 
 
@@ -380,7 +395,7 @@ background-color: #ffffff;
 }
 
 .wrap-text{
-	padding: 4rem;
+	padding: 1rem;
 }
 
 
@@ -483,5 +498,60 @@ li.li-contact{
 		justify-content: center;
 		background-color: #16b6d2;
 	}
+
+
+.column-6-sm{
+  max-width: 50%;
+  flex: 50%;
+}
+
+.column-12-sm{
+  max-width: 100%;
+  flex: 100%;
+}
+
+.text-center-sm{
+	text-align: center !important;
+}
+
+
+
+
+	.section-2 {
+
+		  .bg-left{
+			display: none;
+			}
+
+
+
+
+
+	}
+
+
+	.section-3 {
+
+		  .bg-left{
+			display: none;
+			}
+
+		.wrap-text {
+			h3, p{
+			color: #262f3c;
+			}
+		}
+
+
+		.box-tittle-right{
+			justify-content: center;
+
+		}
+
+
+
+	}
+
+
 
  }
