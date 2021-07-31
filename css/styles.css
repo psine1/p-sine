@@ -218,6 +218,7 @@ section {
 .iconSize {
   font-size: 50px;
   color: #ffffff;
+  padding: 0.5rem;
 }
 
 .icon-circle {
@@ -288,23 +289,27 @@ section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-}
-.box-tittle-right h3 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-  padding-top: 4rem;
-}
-.box-tittle-right p {
-  padding-left: 4rem;
-  padding-right: 4rem;
-  padding-bottom: 4rem;
+  justify-content: space-between;
 }
 .box-tittle-right ul {
-  padding-left: 4rem;
   list-style: none;
   line-height: 3rem;
-  padding-bottom: 4rem;
+  margin-bottom: 0;
+}
+.box-tittle-right li {
+  display: list-item;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+.box-tittle-right .iconSize {
+  font-size: 40px;
+  color: #869098;
+}
+
+.vertical-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .box-tittle-left {
@@ -313,15 +318,9 @@ section {
   align-items: center;
   justify-content: center;
 }
-.box-tittle-left h3 {
-  padding-right: 4rem;
-  padding-left: 4rem;
-  padding-top: 4rem;
-}
-.box-tittle-left p {
-  padding-right: 4rem;
-  padding-left: 4rem;
-  padding-bottom: 4rem;
+
+.wrap-text {
+  padding: 4rem;
 }
 
 .bg {

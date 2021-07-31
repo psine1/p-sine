@@ -253,6 +253,8 @@ section{
 .iconSize{
 	font-size: 50px;
 	color: #ffffff;
+	padding: 0.5rem;
+
 }
 
 
@@ -328,29 +330,33 @@ background-color: #eff0f1;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 
-	h3{
-		padding-left: 4rem;	
-		padding-right: 4rem;				
-		padding-top: 4rem;
-	}
-
-	p{
-		padding-left: 4rem;
-		padding-right: 4rem;		
-		padding-bottom: 4rem;
-	}
 
 	ul{
-		padding-left: 4rem;
 		list-style: none;
 		line-height: 3rem;
-		padding-bottom: 4rem;
+		margin-bottom: 0;
 	}
 
+	li{
+		display: list-item;
+        vertical-align: middle;
+        display: flex;
+    	align-items: center;
+	}
+
+		.iconSize{
+			font-size: 40px;
+			color: #869098;
+		}
 
 
+}
+
+.vertical-list{
+	display: flex;
+	justify-content: space-between;
 }
 
 
@@ -360,20 +366,11 @@ background-color: #eff0f1;
 	align-items: center;
 	justify-content: center;
 
-	h3{
-		padding-right: 4rem;
-		padding-left: 4rem;		
-		padding-top: 4rem;		
-	}
 
-	p{
-		padding-right: 4rem;
-		padding-left: 4rem;		
-		padding-bottom: 4rem;		
-	}	
+}
 
-
-
+.wrap-text{
+	padding: 4rem;
 }
 
 
