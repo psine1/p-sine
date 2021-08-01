@@ -262,7 +262,7 @@ section{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 
 	border-radius: 9px;
     background: #ffffff;
@@ -450,6 +450,19 @@ footer{
 }
 
 
+.max-width-tittle{
+	max-width: 90%;
+}
+
+
+
+.title-section{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;    
+}
+
 $fullWidth: 100%;
 
 .rw{
@@ -523,11 +536,18 @@ li.li-contact{
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 
 	h2{
 		font-size: 53px;
 		line-height: 1.16981;
 		color: #fff;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 	}
 
 	h4{
@@ -539,6 +559,19 @@ li.li-contact{
 
 
 /* end services */
+
+
+/* carousel */
+
+.carousel-control-prev-icon{
+	background-image: url("../media/carousel/arrow-prev.svg");
+}
+
+.carousel-control-next-icon{
+	background-image: url("../media/carousel/arrow-next.svg");
+}
+
+/* end carousel */
 
 
 @media (max-width: 991.98px) { 
@@ -576,7 +609,6 @@ li.li-contact{
 	.container{
 		padding: 0;
 		max-width: 100%;
-
 	}
 
 	#deviceGroup, .box-bg {
@@ -665,9 +697,12 @@ footer{
 } 
 
 
+
  }
 
-
+.img-card img{
+	max-width: 100%;
+}
 
  @media (max-width: 575.98px) { 
 
@@ -680,6 +715,18 @@ footer{
 	  max-width: 100%;
 	  flex: 100%;
 	}
+
+
+h2{
+	padding: 0.6rem;
+}
+
+h3{
+	font-size: 33px;
+	padding: 0.6rem;
+}
+
+
 
 
   }
