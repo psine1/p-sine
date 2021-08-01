@@ -703,6 +703,10 @@ form .button {
     font-size: 33px;
     padding: 0.6rem;
   }
+
+  form {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
