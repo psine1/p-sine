@@ -480,6 +480,14 @@ li.li-contact {
     overflow-x: hidden;
   }
 
+  .section-0 h2, .section-0 h4, .section-0 a {
+    text-align: center !important;
+  }
+  .section-0 .box-tittle-inner {
+    text-align: center !important;
+    justify-content: center;
+  }
+
   li.li-contact {
     display: block;
   }
