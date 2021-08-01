@@ -351,10 +351,9 @@ section {
 
 .bg {
   position: absolute;
-  top: 0px;
   left: 0px;
   right: 0px;
-  bottom: 0px;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   z-index: -1;
@@ -477,6 +476,10 @@ li.li-contact {
 }
 
 @media (max-width: 991.98px) {
+  body {
+    overflow-x: hidden;
+  }
+
   li.li-contact {
     display: block;
   }
@@ -487,6 +490,7 @@ li.li-contact {
 
   .container {
     padding: 0;
+    max-width: 100%;
   }
 
   #deviceGroup, .box-bg {
@@ -499,20 +503,24 @@ li.li-contact {
     background-color: #16b6d2;
   }
 
-  .column-6-sm {
+  .column-6-md {
     max-width: 50%;
     flex: 50%;
   }
 
-  .column-12-sm {
+  .column-12-md {
     max-width: 100%;
     flex: 100%;
   }
 
-  .text-center-sm {
+  .text-center-md {
     text-align: center !important;
   }
 
+  .section-2 .bg {
+    bottom: 0px;
+    height: 85%;
+  }
   .section-2 .bg-left {
     display: none;
   }
@@ -525,6 +533,20 @@ li.li-contact {
   }
   .section-3 .box-tittle-right {
     justify-content: center;
+  }
+
+  footer .navBar-main ul {
+    display: none !important;
+  }
+}
+@media (max-width: 575.98px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .column-12-sm {
+    max-width: 100%;
+    flex: 100%;
   }
 }
 
