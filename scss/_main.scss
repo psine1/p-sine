@@ -71,14 +71,19 @@ section{
 }
 
 .button{
-	color: #49c7e0;
+	background-color: #49c7e0;
+	color: #ffffff;
     padding: 11px 25px;
-    border: 2px solid;
+    border: none;
     border-radius: 35px;
     border-color: #49c7e0;
     text-align: center;
 }
 
+.button:hover {
+	background-color: #14afce;
+	color: #ffffff;
+}
 
 .button-white{
 	color: #fff;
@@ -88,6 +93,14 @@ section{
     border-radius: 35px;
     border-color: #fff;
 	text-align: center;
+	text-decoration: none;
+}
+
+.button-white:hover {
+	background-color: rgba(255, 255, 255, 0.3);;
+	color: #ffffff;
+    text-decoration: none;
+
 }
 
 			.navBar-brand{
@@ -572,6 +585,35 @@ li.li-contact{
 }
 
 /* end carousel */
+
+
+
+/* Contact */
+.wrap-form{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+form{
+	width: 60%;
+
+	input, textarea{
+		border-radius: 25px !important;
+	}
+
+	.row{
+		margin-bottom: 1rem;
+	}
+
+	.button{
+		width: 100%;
+		background-color: #49c7e0;
+		color: #ffffff;
+	}
+}
+/* End Contact */
 
 
 @media (max-width: 991.98px) { 
