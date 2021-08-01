@@ -476,6 +476,7 @@ li.li-contact {
 
 @media (max-width: 991.98px) {
   body {
+    max-width: 100%;
     overflow-x: hidden;
   }
 
@@ -548,6 +549,7 @@ li.li-contact {
 }
 @media (max-width: 575.98px) {
   body {
+    max-width: 100%;
     overflow-x: hidden;
   }
 
