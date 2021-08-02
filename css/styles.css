@@ -708,7 +708,6 @@ form .button {
     width: 90%;
   }
 }
-/*  Transiciones */
 .botonera li a:hover {
   background-color: #d40511;
   color: green;
@@ -716,6 +715,7 @@ form .button {
   transition: 0.5s;
 }
 
+/**/
 .fadeInUp {
   animation-name: fadeInUpAnim;
   animation-duration: 1s;
@@ -728,11 +728,11 @@ form .button {
 @keyframes fadeInUpAnim {
   0% {
     opacity: 0;
-    transform: translate(0px, 60px);
+    transform: translate(0px, 20px);
   }
   100% {
     opacity: 1;
-    transform: translate(0px, 20px);
+    transform: translate(0px, 0px);
   }
 }
 .fadeInLeft {
@@ -826,6 +826,26 @@ form .button {
     transform: scale(1);
   }
 }
-/**/
+@media (max-width: 575.98px) {
+  .fadeInLeft {
+    animation-name: fadeInLeftAnim;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes fadeInLeftAnim {
+    0% {
+      opacity: 0;
+      transform: translate(0px, 20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0px, 0px);
+    }
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
